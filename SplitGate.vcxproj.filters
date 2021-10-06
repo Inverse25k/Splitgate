@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\SG_Engine_functions.cpp">
+      <Filter>SDK\game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SG_Basic.cpp">
+      <Filter>SDK\game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SG_CoreUObject_functions.cpp">
+      <Filter>SDK\game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SG_DiscordRpc_functions.cpp">
+      <Filter>SDK\game</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SG_PortalWars_functions.cpp">
+      <Filter>SDK\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{ca048a1c-5ab9-4a16-b054-b13c8129ea41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\game">
+      <UniqueIdentifier>{df18c1bb-4b94-4ccd-84c9-4ef1f027e522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ue4">
+      <UniqueIdentifier>{a19361e7-2b0a-4b49-85f6-81e41382cd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{8e4f29a2-30f9-440a-b8ab-fbe74062eb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".asm">
+      <UniqueIdentifier>{c73ac4e4-76e1-4fa0-9cd3-6cd4cdf502ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{a2538809-1ee4-4121-8b9a-07e18ca2483a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\menu">
+      <UniqueIdentifier>{7be435cc-63f2-49af-87af-0a4d82705122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{49577a38-6464-4e77-ab4b-61eb80e608dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\SG_DiscordRpc_structs.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_Engine_classes.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_Engine_parameters.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_Engine_structs.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_Basic.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_CoreUObject_classes.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_CoreUObject_parameters.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_CoreUObject_structs.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_DiscordRpc_classes.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SG_DiscordRpc_parameters.hpp">
+      <Filter>SDK\game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ue4\ue4.h">
+      <Filter>ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="memory\memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include=".asm\spoof.h">
+      <Filter>.asm</Filter>
+    </ClInclude>
+    <ClInclude Include=".asm\no_inlinesyscalls.h">
+      <Filter>.asm</Filter>
+    </ClInclude>
+    <ClInclude Include="no_imports.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>render\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas\ZeroGUI.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas\ZeroInput.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt_str.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include=".asm\NtUserGetAsyncKeyState.asm">
+      <Filter>.asm</Filter>
+    </MASM>
+    <MASM Include=".asm\RetSpoofStub.asm">
+      <Filter>.asm</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
